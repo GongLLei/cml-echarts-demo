@@ -1,0 +1,19 @@
+{
+  "name": "echart-demo",
+  "version": "1.0.0",
+  "description": "A chameleon project",
+  "author": "",
+  "private": true,
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "chameleon-api": "0.5.3",
+    "chameleon-bridge": "0.1.11",
+    "chameleon-runtime": "0.2.2",
+    "chameleon-store": "0.1.0-alpha.qq",
+    "chameleon-ui-builtin": "0.2.11-alpha.qq",
+    "cml-ui": "0.2.1",
+    "echarts": "^4.2.1",
+    "vue-echarts": "^4.0.3"
+  }
+}

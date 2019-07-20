@@ -1,0 +1,45 @@
+<template>
+  <view>
+    <echart></echart>
+  </view>
+</template>
+
+<script>
+
+class Index  {
+  data = {
+  }
+}
+
+export default new Index();
+
+</script>
+<style>
+
+.scroller-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.echart{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  height: 500cpx;
+  width: 500cpx;
+}
+</style>
+<script cml-type="json">
+{
+  "base": {
+    "usingComponents": {
+      "echart": "/components/echart/echart"
+    }
+  },
+  "wx": {
+    "navigationBarTitleText": "index",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#E2E2E2"
+  }
+}
+</script>

@@ -1,0 +1,86 @@
+<template>
+  <view>
+      <chart class="mychart_dom_bar"
+        :options="bar"
+        :init-options="initOptions"
+        ref="bar"
+        theme="ovilia-green"
+        auto-resize
+      />
+  </view>
+</template>
+
+<script>
+import 'echarts/lib/chart/bar'
+import getBar from './bar'
+
+class Echart implements EchartInterface {
+  props = {
+    name: {
+      type: String,
+      default: '默认值'
+    }
+  }
+
+  data = {
+    bar: getBar(),
+    initOptions: {
+      renderer: 'canvas'
+    }
+  }
+
+  computed = {
+  }
+
+  watch = {
+  }
+  
+  methods = {
+  }
+
+  beforeCreate() {
+  }
+
+  created() {
+  }
+
+  beforeMount() {
+  }
+
+  mounted() {
+    this.$cmlEmit('onshow',{
+      value: this.name
+    })
+  }
+
+  beforeDestroy() {
+  }
+  
+  destroyed() {
+  }
+}
+
+export default new Echart();
+</script>
+
+<style >
+.mychart_dom_bar,
+.container{
+  height: 750cpx;
+  width: 750cpx;
+}
+
+</style>
+
+<script cml-type="json">
+{
+  "base": {
+    "usingComponents": {
+      "chart": "vue-echarts/components/ECharts"
+    }
+  }
+}
+</script>
+
+
+

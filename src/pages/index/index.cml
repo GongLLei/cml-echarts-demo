@@ -1,0 +1,58 @@
+<template>
+    <view class="wrapper">
+      <demo-com title="{{title}}" image-src="{{chameleonSrc}}"></demo-com>
+      <echart></echart>
+    </view>
+</template>
+
+<script>
+
+class Index  {
+  data = {
+    title: "chameleon",
+    chameleonSrc: require('../../assets/images/chameleon.png')
+  }
+}
+
+export default new Index();
+
+</script>
+<style>
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+</style>
+<script cml-type="json">
+{
+  "base": {
+    "usingComponents": {
+      "echart": "/components/echart/echart",
+      "demo-com": "/components/demo-com/demo-com"
+    }
+  },
+  "wx": {
+    "navigationBarTitleText": "index",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#E2E2E2"
+  },
+  "alipay": {
+    "defaultTitle": "index",
+    "pullRefresh": false,
+    "allowsBounceVertical": "YES",
+    "titleBarColor": "#ffffff"
+  },
+  "baidu": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "index",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  }
+}
+</script>

@@ -1,0 +1,46 @@
+<template>
+  <origin-web ref="webview" style="width:730px; height:700px;" src="{{h5url}}"></origin-web>
+</template>
+
+<script>
+class Echart implements EchartInterface {
+  props = {
+    name: {
+      type: String,
+      default: '默认值'
+    }
+  }
+  data = {
+      h5url: 'http://192.168.1.104:8000/cml/h5/weex'
+  }
+  methods = {
+  }
+
+  mounted() {
+    this.$cmlEmit('onshow',{
+      value: this.name
+    })
+  }
+}
+
+export default new Echart();
+</script>
+
+<style >
+.mychart_dom_bar{
+  height: 500cpx;
+  width: 750cpx;
+}
+.container{
+  height: 500cpx;
+  width: 750cpx;
+}
+</style>
+
+<script cml-type="json">
+{
+  "base": {
+    "usingComponents": {}
+  }
+}
+</script>

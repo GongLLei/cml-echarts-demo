@@ -1,0 +1,86 @@
+<template>
+  <view>
+    <ec-canvas class="mychart_dom_bar" canvas-id="mychartbar" ec="{{ec}}"></ec-canvas>
+  </view>
+</template>
+
+<script>
+import * as echarts from './ec-canvas/echarts';
+import getBar from './bar'
+
+let chart = null;
+function initChart(canvas, width, height) {
+  chart = echarts.init(canvas, null, {
+    width: width,
+    height: height
+  });
+  canvas.setChart(chart);
+  chart.setOption(getBar());
+  return chart;
+}
+
+class Echart implements EchartInterface {
+  props = {
+    name: {
+      type: String,
+      default: '默认值'
+    }
+  }
+
+  data = {
+    ec: {
+      onInit: initChart
+    }
+  }
+
+  computed = {
+  }
+
+  watch = {
+  }
+
+  methods = {
+  }
+
+  beforeCreate() {
+  }
+
+  created() {
+  }
+
+  beforeMount() {
+  }
+
+  mounted() {
+    this.$cmlEmit('onshow',{
+      value: this.name
+    })
+  }
+
+  beforeDestroy() {
+  }
+
+  destroyed() {
+  }
+}
+
+export default new Echart();
+</script>
+
+<style >
+.mychart_dom_bar,
+.container{
+  height: 750cpx;
+  width: 750cpx;
+}
+</style>
+
+<script cml-type="json">
+{
+  "base": {
+    "usingComponents": {
+      "ec-canvas": "./ec-canvas/ec-canvas"
+    }
+  }
+}
+</script>
