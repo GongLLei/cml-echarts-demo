@@ -12,8 +12,8 @@
             "url": "https://www.chameleon.com#/index"
         },
         "weex": {
-            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_0d6fed5034feeda6f519.js",
-            "md5": "27CD9E9AC2C8B6FFF962A4F9E8067F77",
+            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_222032f65a17a6fb0613.js",
+            "md5": "6665246C17E7A6479293CBFAB8E32DC1",
             "query": {
                 "path": "/pages/index/index"
             }
@@ -32,8 +32,8 @@
             "url": "https://www.chameleon.com#/weex"
         },
         "weex": {
-            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_0d6fed5034feeda6f519.js",
-            "md5": "27CD9E9AC2C8B6FFF962A4F9E8067F77",
+            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_222032f65a17a6fb0613.js",
+            "md5": "6665246C17E7A6479293CBFAB8E32DC1",
             "query": {
                 "path": "/pages/weex-echarts/weex-echarts"
             }

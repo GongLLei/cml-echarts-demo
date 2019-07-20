@@ -11,7 +11,7 @@ class Echart implements EchartInterface {
     }
   }
   data = {
-      h5url: 'http://192.168.1.104:8000/cml/h5/weex'
+      h5url: 'http://gonglei.me/cml-echarts-demo/dist/web/cml-echarts-demo.html#/weex'
   }
   methods = {
   }
