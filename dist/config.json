@@ -1,0 +1,42 @@
+[
+    {
+        "wx": {
+            "appId": "123456",
+            "path": "/pages/index/index"
+        },
+        "alipay": {
+            "appId": "",
+            "path": "/pages/index/index"
+        },
+        "web": {
+            "url": "https://www.chameleon.com/cml/h5/index"
+        },
+        "weex": {
+            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_47612493a4f3f9d81718.js",
+            "md5": "97436ADEB0F48054A89E1086BD3B53C1",
+            "query": {
+                "path": "/pages/index/index"
+            }
+        }
+    },
+    {
+        "wx": {
+            "appId": "123456",
+            "path": "/pages/weex-echarts/weex-echarts"
+        },
+        "alipay": {
+            "appId": "",
+            "path": "/pages/weex-echarts/weex-echarts"
+        },
+        "web": {
+            "url": "https://www.chameleon.com/cml/h5/weex"
+        },
+        "weex": {
+            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_47612493a4f3f9d81718.js",
+            "md5": "97436ADEB0F48054A89E1086BD3B53C1",
+            "query": {
+                "path": "/pages/weex-echarts/weex-echarts"
+            }
+        }
+    }
+]

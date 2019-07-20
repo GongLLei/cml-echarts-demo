@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "echart": "./../../components/echart/echart"
+    },
+    "navigationBarTitleText": "index",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#E2E2E2"
+}

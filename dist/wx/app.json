@@ -1,0 +1,13 @@
+{
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Chameleon",
+        "navigationBarTextStyle": "black"
+    },
+    "pages": [
+        "pages/index/index",
+        "pages/weex-echarts/weex-echarts"
+    ],
+    "usingComponents": {}
+}

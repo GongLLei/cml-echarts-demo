@@ -1,0 +1,4 @@
+<view class="wrapper  cml-base cml-view cml-bda16104">
+  <view class=" cml-base cml-view cml-bda16104"><demo-com title="{{title}}" image-src="{{chameleonSrc}}" class=" cml-base cml-demo-com cml-bda16104"></demo-com></view>
+  <view class=" cml-base cml-view cml-bda16104"><echart class=" cml-base cml-echart cml-bda16104"></echart></view>
+</view>

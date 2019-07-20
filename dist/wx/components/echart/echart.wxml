@@ -1,0 +1,3 @@
+<view class=" cml-base cml-view">
+  <ec-canvas class="mychart_dom_bar  cml-view cml-ec-canvas" canvas-id="mychartbar" ec="{{ec}}"></ec-canvas>
+</view>

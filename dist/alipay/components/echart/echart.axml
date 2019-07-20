@@ -1,0 +1,4 @@
+<view class=" cml-base cml-view cml-4e16d8d4">
+  <text class=" cml-base cml-text cml-4e16d8d4">alipay端自定义组件</text>
+  <text class=" cml-base cml-text cml-4e16d8d4">props:{{name}}</text>
+</view>

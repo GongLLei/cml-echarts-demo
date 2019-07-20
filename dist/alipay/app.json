@@ -1,0 +1,10 @@
+{
+    "window": {
+        "defaultTitle": "Chameleon"
+    },
+    "pages": [
+        "pages/index/index",
+        "pages/weex-echarts/weex-echarts"
+    ],
+    "usingComponents": {}
+}

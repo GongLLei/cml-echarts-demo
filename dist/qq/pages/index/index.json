@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "echart": "./../../components/echart/echart",
+        "demo-com": "./../../components/demo-com/demo-com"
+    }
+}
