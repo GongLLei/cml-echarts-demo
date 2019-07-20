@@ -39817,7 +39817,7 @@ exports.containStroke = containStroke;
 /***/ "oJVY":
 /***/ (function(module, exports) {
 
-module.exports = {"mode":"history","domain":"https://www.chameleon.com","routes":[{"url":"/cml/h5/index","path":"/pages/index/index","name":"首页","mock":"index.php"},{"url":"/cml/h5/weex","path":"/pages/weex-echarts/weex-echarts","name":"weex","mock":"index.php"}]}
+module.exports = {"mode":"hash","domain":"https://www.chameleon.com","routes":[{"url":"/index","path":"/pages/index/index","name":"首页","mock":"index.php"},{"url":"/weex","path":"/pages/weex-echarts/weex-echarts","name":"weex","mock":"index.php"}]}
 
 /***/ }),
 
@@ -42098,16 +42098,16 @@ Vue.use(_vueRouter2.default);
 var routerOptions = 
     //根据配置生成路由
     {
-      mode: "history",
+      mode: "hash",
       routes: [
       {
-        path: "/cml/h5/index",
+        path: "/index",
         name: "首页",
         component: __webpack_require__("w8mr").default
       },
       
       {
-        path: "/cml/h5/weex",
+        path: "/weex",
         name: "weex",
         component: __webpack_require__("B00q").default
       },

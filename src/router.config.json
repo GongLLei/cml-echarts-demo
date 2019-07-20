@@ -1,15 +1,15 @@
 {
-  "mode": "history",
+  "mode": "hash",
   "domain": "https://www.chameleon.com",
   "routes":[
     {
-      "url": "/cml/h5/index",
+      "url": "/index",
       "path": "/pages/index/index",
       "name": "首页",
       "mock": "index.php"
     },
     {
-      "url": "/cml/h5/weex",
+      "url": "/weex",
       "path": "/pages/weex-echarts/weex-echarts",
       "name": "weex",
       "mock": "index.php"

@@ -9,11 +9,11 @@
             "path": "/pages/index/index"
         },
         "web": {
-            "url": "https://www.chameleon.com/cml/h5/index"
+            "url": "https://www.chameleon.com#/index"
         },
         "weex": {
-            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_47612493a4f3f9d81718.js",
-            "md5": "97436ADEB0F48054A89E1086BD3B53C1",
+            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_0d6fed5034feeda6f519.js",
+            "md5": "27CD9E9AC2C8B6FFF962A4F9E8067F77",
             "query": {
                 "path": "/pages/index/index"
             }
@@ -29,11 +29,11 @@
             "path": "/pages/weex-echarts/weex-echarts"
         },
         "web": {
-            "url": "https://www.chameleon.com/cml/h5/weex"
+            "url": "https://www.chameleon.com#/weex"
         },
         "weex": {
-            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_47612493a4f3f9d81718.js",
-            "md5": "97436ADEB0F48054A89E1086BD3B53C1",
+            "url": "http://gonglei.me/cml-echarts-demo/dist/weex/cml-echarts-demo_0d6fed5034feeda6f519.js",
+            "md5": "27CD9E9AC2C8B6FFF962A4F9E8067F77",
             "query": {
                 "path": "/pages/weex-echarts/weex-echarts"
             }
